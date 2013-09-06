@@ -3,15 +3,35 @@
 	src: url('fonts/entypo-social.ttf');
 }
 
+html {
+	height: 100%;
+}
+
+body {
+	height: 80%;
+	margin-top: 0px;
+	background-image: url('img/triangular.png');
+	background-repeat: repeat;
+}
+
+#background-container {
+	top: 0px;
+	height: 100%;
+	opacity: 0.5;
+	margin-top: 0.5%;
+	padding-top: 10%;
+}
+
 #container	{
 	text-align: center;
 }
 
 #name	{
-	font-family: 'Open Sans', serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
 	font-size: 4em;
 	margin-top: 10%;
+	color: #fff;
 }
 
 #icon-container	{
@@ -27,19 +47,19 @@
 
 .icon a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }
 
 #linkedin-icon a:hover	{
-	color: #007bb6;
+	color: #444;
 }
 
 #twitter-icon a:hover	{
-	color: #4099FF;
+	color: #444;
 }
 
 #facebook-icon a:hover	{
-	color: #3B5998;
+	color: #444;
 }
 
 #footer	{
@@ -54,7 +74,7 @@
 	font-family: Lato, sans-serif;
 	font-size: 1.2em;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	margin: 0px 10px 0px 10px;
 }
 
